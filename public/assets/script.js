@@ -142,6 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Scroll → add/remove .scrolled class
   function onScroll() {
+    if (!navbar) return;
     if (window.scrollY > 60) {
       navbar.classList.add('scrolled');
     } else {
