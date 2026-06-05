@@ -1,4 +1,6 @@
-export default function header() {
+import { Link } from "react-router-dom";
+
+export default function Header() {
   return (
     <div>
       {/* Scroll Progress Bar */}
@@ -75,7 +77,6 @@ export default function header() {
                 <i className="bi bi-box-arrow-in-right" />
                 <span>Login</span>
               </a>
-              {/* Hidden Google Translate Element */}
               <div id="google_translate_element" style={{ display: "none" }} />
             </div>
           </div>
@@ -84,7 +85,7 @@ export default function header() {
       {/* ===== NAVBAR ===== */}
       <nav className="navbar navbar-expand-lg fixed-top" id="mainNavbar">
         <div className="container">
-          <a className="navbar-brand" href="index.html" id="navBrand">
+          <Link className="navbar-brand" to="/" id="navBrand">
             <span className="brand-icon">
               <img
                 src="./assets/logo/netram_logo.png"
@@ -92,8 +93,7 @@ export default function header() {
                 alt="Netram Eye Foundation"
               />
             </span>
-            {/* <span class="brand-text">KILKARI CARE FOUNDATION</span> */}
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -110,9 +110,9 @@ export default function header() {
           <div className="collapse navbar-collapse" id="navMenu">
             <ul className="navbar-nav ms-auto align-items-center gap-1">
               <li className="nav-item">
-                <a className="nav-link" href="./index.html">
+                <Link className="nav-link" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item dropdown">
                 <a
@@ -126,44 +126,41 @@ export default function header() {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="our-about.html">
+                    <Link className="dropdown-item" to="/about">
                       Our About
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="mission.html">
+                    <Link className="dropdown-item" to="/mission">
                       Mission
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="vision.html">
+                    <Link className="dropdown-item" to="/vision">
                       Vision
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="board-member.html">
+                    <Link className="dropdown-item" to="/board-member">
                       Board Member
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      className="dropdown-item"
-                      href="our-management-team.html"
-                    >
+                    <Link className="dropdown-item" to="/our-management-team">
                       Our Management Team
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="our-story.html">
+                    <Link className="dropdown-item" to="/our-story">
                       Our Story
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="./project.html">
+                <Link className="nav-link" to="/project">
                   Our Initiatives
-                </a>
+                </Link>
               </li>
               <li className="nav-item dropdown">
                 <a
@@ -177,29 +174,29 @@ export default function header() {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="blog.html">
+                    <Link className="dropdown-item" to="/blogs">
                       Blog
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="event.html">
+                    <Link className="dropdown-item" to="/event">
                       Event
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="photo.html">
+                    <Link className="dropdown-item" to="/photo">
                       Photo
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="video.html">
+                    <Link className="dropdown-item" to="/video">
                       Video
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="media.html">
+                    <Link className="dropdown-item" to="/media">
                       Media Coverage
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -215,42 +212,42 @@ export default function header() {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="csr.html">
+                    <Link className="dropdown-item" to="/csr-collaboration">
                       CSR Collaboration
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="careers.html">
+                    <Link className="dropdown-item" to="/careers">
                       Careers
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="volunteer.html">
+                    <Link className="dropdown-item" to="/volunteer">
                       Volunteer with Us
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="internship.html">
+                    <Link className="dropdown-item" to="/internship">
                       Internship
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="certificate.html">
+                <Link className="nav-link" to="/certificate">
                   Certificate
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="contact.html">
+                <Link className="nav-link" to="/contact">
                   Contact
-                </a>
+                </Link>
               </li>
               <li className="nav-item ms-2">
-                <a className="btn-donate" href="donate.html">
+                <Link className="btn-donate" to="/donate">
                   <i className="bi bi-heart-fill me-1" />
                   Donate
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

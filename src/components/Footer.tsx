@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <div>
@@ -64,58 +66,58 @@ export default function Footer() {
                 <h6 className="footer-heading">Quick Links</h6>
                 <ul className="footer-links">
                   <li>
-                    <a href="./index.html">
+                    <Link to="/">
                       <i className="bi bi-chevron-right" />
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./our-about.html">
+                    <Link to="/about">
                       <i className="bi bi-chevron-right" />
                       About Us
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./project.html">
+                    <Link to="/project">
                       <i className="bi bi-chevron-right" />
                       Programs
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./contact.html">
+                    <Link to="/contact">
                       <i className="bi bi-chevron-right" />
                       Terms &amp; Condition
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./contact.html">
+                    <Link to="/contact">
                       <i className="bi bi-chevron-right" />
                       Privacy Policy
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./contact.html">
+                    <Link to="/contact">
                       <i className="bi bi-chevron-right" />
                       Refund Policy
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./csr.html">
+                    <Link to="/csr-collaboration">
                       <i className="bi bi-chevron-right" />
                       CSR Policy
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./index.html#faq">
+                    <Link to="/#faq">
                       <i className="bi bi-chevron-right" />
                       Faq
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./donate.html">
+                    <Link to="/donate">
                       <i className="bi bi-chevron-right" />
                       Donate
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -123,58 +125,58 @@ export default function Footer() {
                 <h6 className="footer-heading">About</h6>
                 <ul className="footer-links">
                   <li>
-                    <a href="./our-about.html">
+                    <Link to="/about">
                       <i className="bi bi-chevron-right" />
                       Our About
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./mission.html">
+                    <Link to="/mission">
                       <i className="bi bi-chevron-right" />
                       Mission
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./vision.html">
+                    <Link to="/vision">
                       <i className="bi bi-chevron-right" />
                       Vision
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./board-member.html">
+                    <Link to="/board-member">
                       <i className="bi bi-chevron-right" />
                       Board Member
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./our-management-team.html">
+                    <Link to="/our-management-team">
                       <i className="bi bi-chevron-right" />
                       Our Management Team
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./our-about.html">
+                    <Link to="/our-story">
                       <i className="bi bi-chevron-right" />
                       Our Story
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./project.html">
+                    <Link to="/project">
                       <i className="bi bi-chevron-right" />
                       Our Project
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./csr.html">
+                    <Link to="/csr-collaboration">
                       <i className="bi bi-chevron-right" />
                       CSR Collaboration
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./careers.html">
+                    <Link to="/careers">
                       <i className="bi bi-chevron-right" />
                       Careers
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -182,58 +184,58 @@ export default function Footer() {
                 <h6 className="footer-heading">Gallery</h6>
                 <ul className="footer-links">
                   <li>
-                    <a href="./blog.html">
+                    <Link to="/blogs">
                       <i className="bi bi-chevron-right" />
                       Blog
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./event.html">
+                    <Link to="/event">
                       <i className="bi bi-chevron-right" />
                       Event
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./photo.html">
+                    <Link to="/photo">
                       <i className="bi bi-chevron-right" />
                       Photo
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./video.html">
+                    <Link to="/video">
                       <i className="bi bi-chevron-right" />
                       Video
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./reviews.html">
+                    <Link to="/media">
                       <i className="bi bi-chevron-right" />
                       Media Coverage
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./volunteer.html">
+                    <Link to="/volunteer">
                       <i className="bi bi-chevron-right" />
                       Volunteer with Us
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./internship.html">
+                    <Link to="/internship">
                       <i className="bi bi-chevron-right" />
                       Internship
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./reviews.html">
+                    <Link to="/review">
                       <i className="bi bi-chevron-right" />
                       Reviews
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./contact.html">
+                    <Link to="/contact">
                       <i className="bi bi-chevron-right" />
                       Contact Us
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -262,13 +264,13 @@ export default function Footer() {
                   </span>
                 </div>
                 <div className="mt-3">
-                  <a
-                    href="./donate.html"
+                  <Link
+                    to="/donate"
                     className="btn btn-sm btn-primary-custom"
                     style={{ fontSize: "0.75rem", padding: "8px 15px" }}
                   >
                     <i className="bi bi-heart-fill me-1" /> Donate Now
-                  </a>
+                  </Link>
                 </div>
                 <div className="footer-map mt-3">
                   <iframe
