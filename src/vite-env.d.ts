@@ -1,5 +1,9 @@
 /// <reference types="vite/client" />
 
+declare module "*.css";
+
+declare module "leaflet/dist/leaflet.css";
+
 declare module "swiper/css" {
   const content: string;
   export default content;
